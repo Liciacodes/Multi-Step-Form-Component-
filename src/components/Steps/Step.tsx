@@ -10,7 +10,7 @@ interface StepProps {
       <div className="flex items-center gap-4">
         <div
           className={`flex justify-center items-center w-10 h-10 rounded-full font-bold ${
-            isActive ? 'bg-[hsl(217,100%,97%)] text-[hsl(213, 96%, 18%)] ' : 'border border-white text-white'
+            isActive ? 'bg-[hsl(217,100%,97%)] text-blue-950 ' : 'border border-white text-white'
           }`}
         >
           {number}
